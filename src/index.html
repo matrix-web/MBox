@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Online TV</title>
+  </head>
+  <body>
+    <header>
+      <div class="header"><a href="#!"><img src="./images/icons/logo.svg" alt="logo"></a>
+        <div class="burger" role="button" aria-label="menu-button" id="burger-button"><span></span><span></span><span></span><span></span></div>
+        <nav class="header-mobile-nav" id="mobile-nav">
+          <ul class="nav">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">TV Shows</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Movies</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Series</a></li>
+          </ul>
+          <ul class="control">
+            <li class="control-item">
+              <button class="control-btn control-btn_search"></button>
+            </li>
+            <li class="control-item">
+              <button class="control-btn control-btn_notice"></button>
+            </li>
+            <li class="control-item">
+              <button class="control-btn control-btn_account"></button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="section-banner"><img class="section-banner__image" src="./images/justice-league.png" alt="justice-league">
+      <div class="container">
+        <div class="banner">
+          <h1 class="banner__title">Zack Snyder's Justice League</h1>
+          <div class="banner-info"><span class="banner-info__year">2021</span><span class="banner-info__age">18+</span><span class="banner-info__time">4h 2min</span><span class="banner-info__rating">8.8</span></div>
+          <p class="banner__text">Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.</p>
+          <div class="banner-control">
+            <button class="banner-control__btn banner-control__btn_main">Watch</button>
+            <button class="banner-control__btn banner-control__btn_more">More information</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section class="section">
+        <div class="container">
+          <h2 class="section__h2"><a class="section__h2-link" href="#">Trending TV Shows</a></h2>
+          <div class="movies">
+                <div class="movies-item"><a class="movies__link" href="#"> <img class="movies__img" src="./images/movies/tv-shows/show-1.png" alt="After"></a></div>
+                <div class="movies-item"><a class="movies__link" href="#"> <img class="movies__img" src="./images/movies/tv-shows/show-2.png" alt="Emancipation"></a></div>
+                <div class="movies-item"><a class="movies__link" href="#"> <img class="movies__img" src="./images/movies/tv-shows/show-3.png" alt="Dunkirk"></a></div>
+                <div class="movies-item"><a class="movies__link" href="#"> <img class="movies__img" src="./images/movies/tv-shows/show-4.png" alt="The enormity of life"></a></div>
+                <div class="movies-item"><a class="movies__link" href="#"> <img class="movies__img" src="./images/movies/tv-shows/show-5.png" alt="Vanitas"></a></div>
+                <div class="movies-item"><a class="movies__link" href="#"> <img class="movies__img" src="./images/movies/tv-shows/show-6.png" alt="Something like perfect"></a></div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="section__h2"><a class="section__h2-link" href="#">Trending Movies</a></h2>
+          <div class="swiper-container" id="swiper-container">
+            <div class="movies swiper-slide">
+                  <div class="movies-item"><a class="movies__link" href="#"> <img class="movies__img" src="./images/movies/movie-1.png" alt="Maturing Youth"></a></div>
+                  <div class="movies-item"><a class="movies__link" href="#"> <img class="movies__img" src="./images/movies/movie-2.png" alt="Leaf year"></a></div>
+                  <div class="movies-item"><a class="movies__link" href="#"> <img class="movies__img" src="./images/movies/movie-3.png" alt="The curse of oak island"></a></div>
+                  <div class="movies-item"><a class="movies__link" href="#"> <img class="movies__img" src="./images/movies/movie-4.png" alt="steel legal"></a></div>
+                  <div class="movies-item"><a class="movies__link" href="#"> <img class="movies__img" src="./images/movies/movie-5.png" alt="Interlock"></a></div>
+                  <div class="movies-item"><a class="movies__link" href="#"> <img class="movies__img" src="./images/movies/movie-6.png" alt="The Black Echo"></a></div>
+            </div>
+          </div>
+          <div class="section-wrapper"> <a class="section__btn" href="#">See More</a></div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="section__h2"><a class="section__h2-link" href="#">Popular Genres</a></h2>
+          <div class="genres">
+                <div class="genres-item genres-item_romance">
+                  <div class="genres__icon"><img class="genres__image" src="./images/icons/romance.svg" alt="Romance"></div>
+                  <h3 class="genres__title">Romance</h3>
+                </div>
+                <div class="genres-item genres-item_drama">
+                  <div class="genres__icon"><img class="genres__image" src="./images/icons/drama.svg" alt="Drama"></div>
+                  <h3 class="genres__title">Drama</h3>
+                </div>
+                <div class="genres-item genres-item_history">
+                  <div class="genres__icon"><img class="genres__image" src="./images/icons/history.svg" alt="Hisorical"></div>
+                  <h3 class="genres__title">Hisorical</h3>
+                </div>
+                <div class="genres-item genres-item_action">
+                  <div class="genres__icon"><img class="genres__image" src="./images/icons/action.svg" alt="Action"></div>
+                  <h3 class="genres__title">Action</h3>
+                </div>
+                <div class="genres-item genres-item_sci-fi">
+                  <div class="genres__icon"><img class="genres__image" src="./images/icons/sci-fi.svg" alt="Sci-fi"></div>
+                  <h3 class="genres__title">Sci-fi</h3>
+                </div>
+                <div class="genres-item genres-item_horror">
+                  <div class="genres__icon"><img class="genres__image" src="./images/icons/horror.svg" alt="Horror"></div>
+                  <h3 class="genres__title">Horror</h3>
+                </div>
+                <div class="genres-item genres-item_comedy">
+                  <div class="genres__icon"><img class="genres__image" src="./images/icons/comedy.svg" alt="Comedy"></div>
+                  <h3 class="genres__title">Comedy</h3>
+                </div>
+                <div class="genres-item genres-item_documentary">
+                  <div class="genres__icon"><img class="genres__image" src="./images/icons/documentary.svg" alt="Documentary"></div>
+                  <h3 class="genres__title">Documentary</h3>
+                </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="section__h2"><a class="section__h2-link" href="#">Popular Actors & Directors</a></h2>
+          <div class="actors">
+                <div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="./images/actors/1.jpg" alt="Samantha Bowen"></a>
+                  <h3 class="actors__title">Samantha Bowen</h3>
+                </div>
+                <div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="./images/actors/6.jpg" alt="Rhys Birch"></a>
+                  <h3 class="actors__title">Rhys Birch</h3>
+                </div>
+                <div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="./images/actors/2.jpg" alt="James Holloway"></a>
+                  <h3 class="actors__title">James Holloway</h3>
+                </div>
+                <div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="./images/actors/3.jpg" alt="Morgan O'Neill"></a>
+                  <h3 class="actors__title">Morgan O'Neill</h3>
+                </div>
+                <div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="./images/actors/4.jpg" alt="Joshua Walton"></a>
+                  <h3 class="actors__title">Joshua Walton</h3>
+                </div>
+                <div class="actors-item"><a class="actors__link" href="#"><img class="actors__img" src="./images/actors/5.jpg" alt="Patrick Elliott"></a>
+                  <h3 class="actors__title">Patrick Elliott</h3>
+                </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="marketing">
+            <div class="marketing-item marketing-item-1"><img class="marketing-item__img marketing-item__img-1" src="./images/marketing/Big-Buck-Bunny.jpg" alt="Big-Buck-Bunny"></div>
+            <div class="marketing-item marketing-item-2"><img class="marketing-item__img marketing-item__img-2" src="./images/marketing/2021.svg" alt="2021">
+              <h3 class="marketing-item__title">Coming soon...</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="offer">
+            <h2 class="offer__title">Are You New Here? <br> Don’t wait, Register Now.</h2>
+            <button class="offer__btn">Register Now</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-item"><a href="#"><img src="./images/icons/logo.svg" alt="logo"></a>
+          <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer-items-wrapper">
+          <div class="footer-item">
+            <ul class="footer-list">
+              <li class="footer-list__item"><a class="footer-list__link" href="#">Voice over and Subtitle</a></li>
+              <li class="footer-list__item"><a class="footer-list__link" href="#">Media Center</a></li>
+              <li class="footer-list__item"><a class="footer-list__link" href="#">Privacy</a></li>
+              <li class="footer-list__item"><a class="footer-list__link" href="#">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <ul class="footer-list">
+              <li class="footer-list__item"><a class="footer-list__link" href="#">Voice Description</a></li>
+              <li class="footer-list__item"><a class="footer-list__link" href="#">Investor Relations</a></li>
+              <li class="footer-list__item"><a class="footer-list__link" href="#">Legal Provisions</a></li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <ul class="footer-list">
+              <li class="footer-list__item"><a class="footer-list__link" href="#">Help Center</a></li>
+              <li class="footer-list__item"><a class="footer-list__link" href="#">Job Opportunities</a></li>
+              <li class="footer-list__item"><a class="footer-list__link" href="#">Cookies Preferences</a></li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <ul class="footer-list">
+              <li class="footer-list__item"><a class="footer-list__link" href="#">Gift Cards</a></li>
+              <li class="footer-list__item"><a class="footer-list__link" href="#">Terms of Use</a></li>
+              <li class="footer-list__item"><a class="footer-list__link" href="#">Corporate Informations</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/main.js"> </script>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+main
+  section.section
+    .container
+      h2.section__h2
+        a.section__h2-link(href="#") Trending TV Shows
+      .movies
+        +movie-item('./images/movies/tv-shows/show-1.png', 'After')
+        +movie-item('./images/movies/tv-shows/show-2.png', 'Emancipation')
+        +movie-item('./images/movies/tv-shows/show-3.png', 'Dunkirk')
+        +movie-item('./images/movies/tv-shows/show-4.png', 'The enormity of life')
+        +movie-item('./images/movies/tv-shows/show-5.png', 'Vanitas')
+        +movie-item('./images/movies/tv-shows/show-6.png', 'Something like perfect')
+  section.section
+    .container
+      h2.section__h2
+        a.section__h2-link(href="#") Trending Movies
+      .swiper-container#swiper-container
+        .movies.swiper-slide
+          +movie-item('./images/movies/movie-1.png', 'Maturing Youth')
+          +movie-item('./images/movies/movie-2.png', 'Leaf year')
+          +movie-item('./images/movies/movie-3.png', 'The curse of oak island')
+          +movie-item('./images/movies/movie-4.png', 'steel legal')
+          +movie-item('./images/movies/movie-5.png', 'Interlock')
+          +movie-item('./images/movies/movie-6.png', 'The Black Echo')
+      .section-wrapper 
+        a(href="#").section__btn See More
+  section.section
+    .container
+      h2.section__h2
+        a.section__h2-link(href="#") Popular Genres
+      .genres
+        +genres-item("Romance", "./images/icons/romance.svg", "Romance")(class="genres-item_romance")
+        +genres-item("Drama", "./images/icons/drama.svg", "Drama")(class="genres-item_drama")
+        +genres-item("Hisorical", "./images/icons/history.svg", "Hisorical")(class="genres-item_history")
+        +genres-item("Action", "./images/icons/action.svg", "Action")(class="genres-item_action")
+        +genres-item("Sci-fi", "./images/icons/sci-fi.svg", "Sci-fi")(class="genres-item_sci-fi")
+        +genres-item("Horror", "./images/icons/horror.svg", "Horror")(class="genres-item_horror")
+        +genres-item("Comedy", "./images/icons/comedy.svg", "Comedy")(class="genres-item_comedy")
+        +genres-item("Documentary", "./images/icons/documentary.svg", "Documentary")(class="genres-item_documentary")
+  section.section
+    .container
+      h2.section__h2
+        a.section__h2-link(href="#") Popular Actors & Directors
+      .actors
+        +actor-item('Samantha Bowen', './images/actors/1.jpg', 'Samantha Bowen')
+        +actor-item('Rhys Birch', './images/actors/6.jpg', 'Rhys Birch')
+        +actor-item('James Holloway', './images/actors/2.jpg', 'James Holloway')
+        +actor-item('Morgan O\'Neill', './images/actors/3.jpg', 'Morgan O\'Neill') 
+        +actor-item('Joshua Walton', './images/actors/4.jpg', 'Joshua Walton')
+        +actor-item('Patrick Elliott', './images/actors/5.jpg', 'Patrick Elliott')
+  section.section
+    .container
+      .marketing
+        .marketing-item.marketing-item-1
+          img.marketing-item__img.marketing-item__img-1(src="./images/marketing/Big-Buck-Bunny.jpg", alt="Big-Buck-Bunny")
+        .marketing-item.marketing-item-2
+          img.marketing-item__img.marketing-item__img-2(src="./images/marketing/2021.svg", alt="2021")
+          h3.marketing-item__title Coming soon...
+  section.section
+    .container
+      .offer
+        h2.offer__title Are You New Here? <br> Don’t wait, Register Now.
+        button.offer__btn Register Now
